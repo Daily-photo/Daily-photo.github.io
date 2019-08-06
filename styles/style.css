@@ -32,9 +32,21 @@ height:732px;
 height:310px;
 width:265px;
 }
-.img_bar{
-
-width:100%;
+.parametrs_img {
+width: 160px; 
+height:160px;
+overflow: hidden; 
+position: relative;
+display: inline-block;
+}
+.wing_img {
+position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   width:160px;
+   height:160px;
+   object-fit:cover;
 }
 
 
